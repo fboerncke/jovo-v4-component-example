@@ -1,0 +1,38 @@
+{
+  "invocation": {
+    "alexa": "fragebogen",
+    "googleAssistant": "fragebogen"
+  },
+  "version": "4.0",
+  "intents": {
+    "YesIntent": {
+      "phrases": ["ja", "ja bitte", "klar"]
+    },
+    "NotSureIntent": {
+      "phrases": ["vielleicht"]
+    },
+    "NoIntent": {
+      "phrases": ["nein", "nein danke"]
+    }
+  },
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      }
+    }
+  }
+}
